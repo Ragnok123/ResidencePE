@@ -1,21 +1,19 @@
-name: Residence
+name: ResidencePE
 main: com.bekvon.bukkit.residence.ResidenceCommandListener
-version: 2.6.7.0
-website: http://www.spigotmc.org/resources/residence-reloaded-1-8.2697/
-description: Cuboid Residence Plugin
-authors: [bekvon,nate302,t00thpick1]
-contributors: [lemon42,smbarbour,inorixu,Shayana_fr]
-softdepend: [Vault,Essentials,RealPlugin,BOSEconomy,iConomy,bPermissions,PermissionsBukkit,Permissions,WorldEdit,My Worlds]
+version: 1.0
+website: pak sem nejaky web
+description: Just residence plugin for MCPE, just install and enjoy
+authors: [CreeperFace, Ragnok123]
 commands:
   res:
     description: Manage Residences
-    usage: §c/res ? for more info
+    usage: §c/res 
   residence:
     description: Manage Residences
-    usage: §c/residence ? for more info
+    usage: §c/residence 
   resadmin:
     description: Residence admin functions.
-    usage: §c/res ? or /resadmin ? for more info
+    usage: §c/resadmin 
   resreload:
     description: Reload the entire residence plugin.
     usage: §c/resreload
