@@ -24,18 +24,8 @@ import cn.nukkit.plugin.PluginBase;
 import cn.nukkit.plugin.PluginManager;
 import cn.nukkit.utils.Config;
 import cn.nukkit.utils.LogLevel;
-import org.bukkit.Bukkit;
-import org.bukkit.Location;
-import org.bukkit.Server;
-import org.bukkit.World;
-import org.bukkit.command.ConsoleCommandSender;
-import org.bukkit.configuration.InvalidConfigurationException;
-import org.bukkit.configuration.file.FileConfiguration;
-import org.bukkit.configuration.file.YamlConfiguration;
-import org.bukkit.entity.Player;
-import org.bukkit.plugin.Plugin;
-import org.bukkit.plugin.PluginManager;
-import org.bukkit.plugin.java.JavaPlugin;
+import cn.nukkit.level.Level;
+import cn.nukkit.level.Position;
 
 import com.bekvon.bukkit.residence.chat.ChatManager;
 import com.bekvon.bukkit.residence.economy.BOSEAdapter;
@@ -70,15 +60,7 @@ import com.earth2me.essentials.Essentials;
 import com.residence.mcstats.Metrics;
 import com.residence.zip.ZipLibrary;
 
-import cosine.boseconomy.BOSEconomy;
-import fr.crafter.tickleman.realeconomy.RealEconomy;
-import fr.crafter.tickleman.realplugin.RealPlugin;
 
-/**
- * 
- * @author Gary Smoak - bekvon
- *
- */
 public class Residence extends PluginBase {
 
     protected static ResidenceManager rmanager;
